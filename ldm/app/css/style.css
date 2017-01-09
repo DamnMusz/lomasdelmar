@@ -1,0 +1,113 @@
+.my-navbar-header {
+  margin-top: 1vh;
+}
+
+.non-sticky-navigation {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  padding: 0!important;
+  background: #1565C0 !important;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  height: 7vh;
+  text-align: center;
+}
+
+.my-container {
+  margin-top: 7vh;
+  min-height: 81vh;
+}
+
+.my-footer {
+  height: 12vh;
+  background: #191919;
+}
+.my-footer .copyright-text {
+  color: #fff;
+  text-align: center;
+}
+.my-footer .copyright-text a {
+  transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+.menu-icon i {
+  margin-left: 0;
+  margin-top: 20%;
+  font-size: 300%;
+}
+
+.navbar .navbar-nav li a {
+  padding: 15px 15px;
+}
+
+#defaultSideMenuItem {
+  color: #F5F5F5!important;
+  cursor: pointer;
+}
+
+#defaultSideMenuItem:hover, #defaultSideMenuItem:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+#level2NavbarItem > a {
+  padding-left: 30px;
+  color: #F5F5F5!important;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#level2NavbarItem:hover, #level2NavbarItem:active {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+a, a:hover, a:focus {
+  color: #F5F5F5!important;
+}
+
+#defaultSideMenuItem {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    font-size: 14px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+#defaultSideMenuItem {
+    color: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (min-width: 768px)
+#defaultSideMenuItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#defaultSideMenuItem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+#defaultSideMenuItem {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+#defaultSideMenuItem {
+    color: #009688;
+}
+#defaultSideMenuItem {
+    color: #337ab7;
+    text-decoration: none;
+}
+#defaultSideMenuItem {
+    background-color: transparent;
+}
