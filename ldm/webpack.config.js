@@ -1,12 +1,10 @@
 var path = require('path');
 var webpack = require('webpack');
 
-// javascript: './routes.js',
-
 module.exports = {
-  context: path.join(__dirname, 'home'),
+  context: path.join(__dirname, 'app'),
   entry: {
-
+    javascript: './routes.js',
     html: './index.html',
   },
   output: {
