@@ -22,17 +22,22 @@ class Index extends React.Component {
 
   render() {
     var fotosStyle = {
-      backgroundColor: '#E0F7FA'
+      backgroundColor: '#F5F5F5'
+    };
+    var footerStyle = {
+      backgroundColor: '#A1887F',
+      color: '#FFFFFF',
+      fontWeight: 'bold'
     };
     return (
-      <div>
+      <div style={fotosStyle}>
 
       <div className="fh5co-loader"></div>
 
       <div id="page">
       <Navbar />
 
-      <div id="fh5co-work" style={fotosStyle}>
+      <div id="fh5co-work">
         <div className="container">
           <div className="row">
             <ImageRow url='images/bt_home_complejo_over.jpg' desc="EL COMPLEJO"/>
@@ -71,20 +76,19 @@ class Index extends React.Component {
           <div className="row animate-box">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2>Ubicación</h2>
-              <GMap />
-              <p><a href="#" className="btn btn-primary">Lets work together</a></p>
+              <p>Sobre la playa, en un lugar privilegiado, puede encontrarnos en La Calle 32 y Playa, Las Gaviotas.</p>
             </div>
+            <GMap />
           </div>
         </div>
       </div>
 
-      <footer id="fh5co-footer" role="contentinfo">
+      <footer id="fh5co-footer" role="contentinfo" style={footerStyle}>
         <div className="container">
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
-                <small className="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a> &amp; <a href="http://blog.gessato.com/" target="_blank">Gessato</a></small>
+                <small className="block">CALLE 32 Y PLAYA - LAS GAVIOTAS - Tel: (011)15-6397-8565 - info@lomasdelmar.com.ar</small>
               </p>
 
               <ul className="fh5co-social-icons">
