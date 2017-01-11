@@ -26,6 +26,7 @@
   },
   "scripts": {
     "start-webpack-server": "webpack-dev-server --hot --inline --colors --progress",
+    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
